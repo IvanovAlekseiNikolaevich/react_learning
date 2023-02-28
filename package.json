@@ -1,5 +1,5 @@
 {
-  "name": "react_mosh",
+  "name": "game-hub",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,17 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@hookform/resolvers": "^2.9.11",
-    "@types/styled-components": "^5.1.26",
-    "bootstrap": "^5.2.3",
-    "immer": "^9.0.19",
-    "prettier": "^2.8.8",
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "framer-motion": "^10.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hook-form": "7.43",
-    "react-icons": "^4.7.1",
-    "styled-components": "^5.3.10",
-    "zod": "^3.20.6"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
