@@ -1,0 +1,13 @@
+.btn {
+    border-radius: 3px;
+    padding: 5px 12px;
+    border: 0;
+}
+
+.btnPrimary {
+    background: blue;
+}
+
+.btnSecondary {
+    background: green;
+}
