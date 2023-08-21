@@ -1,5 +1,4 @@
 import { useState } from "react";
-import produce from "immer";
 
 interface ExpandableTextProps {
   maxLen?: number;
