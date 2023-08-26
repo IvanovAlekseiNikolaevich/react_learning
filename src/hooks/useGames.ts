@@ -1,12 +1,12 @@
-import { type GameQuery } from '../App'
 import { useInfiniteQuery } from '@tanstack/react-query'
-import APIClient, { type FetchResponse } from '../services/api-client'
+import { type GameQuery } from '../App'
+import APIClient, {
+  type FetchResponse
+} from '../services/api-client'
+import { type Platform } from './usePlatforms'
 
-export interface Platform {
-  id: number
-  name: string
-  slug: string
-}
+const apiClient = new APIClient<Game>('/games')
+
 export interface Game {
   id: number
   name: string
@@ -15,8 +15,6 @@ export interface Game {
   metacritic: number
   rating_top: number
 }
-
-const apiClient = new APIClient<Game>('/games')
 
 const useGames = (gameQuery: GameQuery) =>
   useInfiniteQuery<FetchResponse<Game>, Error>({
