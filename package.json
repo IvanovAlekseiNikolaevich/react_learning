@@ -24,7 +24,8 @@
     "react-hook-form": "^7.45.4",
     "react-icons": "^4.7.1",
     "react-infinite-scroll-component": "^6.1.0",
-    "zod": "^3.22.2"
+    "zod": "^3.22.2",
+    "zustand": "^4.3.7"
   },
   "devDependencies": {
     "@types/ms": "^0.7.31",
