@@ -1,6 +1,6 @@
 FROM node:18.3-alpine
 WORKDIR /app
-COPY package.json .
+COPY package.json package-lock.json ./
 RUN npm i
 COPY . .
 EXPOSE 5173
